@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dateTextView" type="id" />
+    <item name="selectDateButton" type="id" />
+    <item name="startTimeTextView" type="id" />
+    <item name="selectStartTimeButton" type="id" />
+    <item name="endTimeTextView" type="id" />
+    <item name="selectEndTimeButton" type="id" />
+    <item name="descriptionEditText" type="id" />
+    <item name="addPhotoButton" type="id" />
+    <item name="photoImageView" type="id" />
+    <item name="saveEntryButton" type="id" />
+    <item name="spinnerCategory" type="id" />
+    <item name="spinnerTask" type="id" />
+    <item name="editTextReport" type="id" />
+    <item name="buttonSubmit" type="id" />
+    <item name ="reenterPassword" type="id"/>
+    <item name="Minspinner" type="id" />
+</resources>

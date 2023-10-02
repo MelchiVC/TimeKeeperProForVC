@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--XML LAYOUT FILE FOR TOOLBAR. DONT CHANGE A THING-->
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@drawable/toolbar"
+    android:id="@+id/toolbar"
+    app:title="TimeKeeperPro"
+    android:fontFamily="@font/nexa_heavy"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+</androidx.appcompat.widget.Toolbar>

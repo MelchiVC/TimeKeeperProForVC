@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "79242003688",
+    "firebase_url": "https://opsc-poe-login-9318b-default-rtdb.firebaseio.com",
+    "project_id": "opsc-poe-login-9318b",
+    "storage_bucket": "opsc-poe-login-9318b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79242003688:android:6c0efb8e1d699f1b62355d",
+        "android_client_info": {
+          "package_name": "com.example.opsc_poe_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79242003688-es4qkgt23ve3pcs6psfrgflcu6co8lnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV-xp-DcnQQaLXk5zETIgbcjspBM-aL5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79242003688-es4qkgt23ve3pcs6psfrgflcu6co8lnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

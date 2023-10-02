@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/login_background"
+    tools:context=".Task"
+    tools:ignore="RedundantNamespace,ScrollViewSize">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:fontFamily="@font/nexa_heavy"
+        android:padding="16dp"
+        android:text="Create New Task"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/activityNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:hint="New Task"
+        android:textColorHint="@color/white2"
+        android:fontFamily="@font/nexa_heavy"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize,TouchTargetSizeCheck" />
+    <Spinner
+        android:id="@+id/CategoriesSpinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="Select Hours"
+        android:textColor="@color/white"
+        tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize,DuplicateSpeakableTextCheck" />
+
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        tools:ignore="HardcodedText,PxUsage,SpUsage,TextContrastCheck,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/selectDateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:fontFamily="@font/nexa_heavy"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txt_selectedDate"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30px"
+        android:textColor="#0000FF"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:fontFamily="@font/nexa_heavy"
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <TextView
+        android:id="@+id/startTimeTextView"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="Start Time"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        tools:ignore="HardcodedText,PxUsage,SpUsage,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/selectStartTimeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Start Time"
+        android:fontFamily="@font/nexa_heavy"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/txt_startTime"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30px"
+        android:textColor="#00FF00"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <TextView
+        android:id="@+id/endTimeTextView"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:text="End Time"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        tools:ignore="HardcodedText,PxUsage,SpUsage,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/selectEndTimeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select End Time"
+        android:fontFamily="@font/nexa_heavy"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txt_endTime"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30px"
+        android:textColor="#FF0000"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        tools:ignore="HardcodedText,PxUsage" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minimum Daily Goal (hours)"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <Spinner
+        android:id="@+id/Minspinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="Select Hours"
+        android:textColor="@color/white"
+        tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize,DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maximum Daily Goal (hours)"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <Spinner
+        android:id="@+id/Maxspinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="Select Hours"
+        tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize"/>
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10sp"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription,InefficientWeight,ImageContrastCheck" />
+    <Button
+        android:id="@+id/addPhotoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Select photo (optional)"
+        android:fontFamily="@font/nexa_heavy"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/saveEntryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/register_background"
+        android:fontFamily="@font/nexa_heavy"
+        android:text="Save Entry"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/txt_Details"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30px"
+        android:layout_marginTop="5sp"
+        tools:ignore="HardcodedText,PxUsage" />
+    <Button
+        android:id="@+id/viewTasks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Tasks"
+        android:fontFamily="@font/nexa_heavy"
+        android:textColor="@color/white"
+        android:layout_marginBottom="25sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
+    </ScrollView>
+<FrameLayout
+android:id="@+id/contentFrameLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_above="@id/bottomNavigationView"/>
+
+    <include
+        layout="@layout/tkp_toolbar"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="95dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginEnd="-23dp"
+        android:background="@null"
+        android:padding="10dp"
+        app:srcCompat="@drawable/logout2"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,VisualLintBounds" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+android:id="@+id/bottomNavigationView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+app:menu="@menu/bottom_nav_menu"
+android:padding="10dp"
+android:background="@drawable/toolbar"
+tools:ignore="VisualLintBottomNav" />
+
+    </RelativeLayout>

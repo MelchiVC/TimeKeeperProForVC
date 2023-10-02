@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TimeKeeperPro</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="password_hint2">Re-enter Password</string>
+
+    <string name="login_welcome">Welcome</string>
+    <string name="register_welcome">Get started</string>
+
+
+
+</resources>

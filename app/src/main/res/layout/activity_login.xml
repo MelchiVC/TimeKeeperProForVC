@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="623dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="169dp"
+            android:layout_height="169dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/nexa_heavy"
+            android:padding="29dp"
+            android:text="@string/login_welcome"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+
+            />
+
+        <EditText
+            android:id="@+id/User_Name"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/edit_background"
+            android:drawableStart="@drawable/user"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/nexa_heavy"
+            android:hint="@string/username_hint"
+            android:padding="10dp"
+            android:textColorHint="@color/white"
+            tools:ignore="Autofill,TextFields,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/edit_background"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/nexa_heavy"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/white"
+            tools:ignore="Autofill,TextFields,inputType,VisualLintTextFieldSize" />
+
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/nexa_heavy"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            tools:ignore="VisualLintButtonSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="12dp"
+            android:text="Dont have an account? :("
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/nexa_heavy"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

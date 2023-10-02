@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/category"
+        android:title="Categories"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/menu_task"
+        android:icon="@drawable/task"
+        android:title="New Task"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/menu_report"
+        android:icon="@drawable/report"
+        android:title="Report"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/menu_statistics"
+        android:icon="@drawable/statistics"
+        android:title="Statistics"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/menu_list"
+        android:icon="@drawable/task_list"
+        android:title="Task list"
+        tools:ignore="HardcodedText" />
+
+
+</menu>
